@@ -21,21 +21,10 @@ class ModuleUploadController extends Controller implements ShouldQueue
     public function csv_upload(Request $request)
     {
        
-        // print_r($request->all()); exit;
         $validator = Validator::make($request->all(),[ 
               'file' => 'required|mimes:txt,csv|max:2048',
         ]);   
-        
-        // $validator = Validator::make(
-        //     [
-        //         'file'      => $request->file,
-        //         'extension' => strtolower($request->file->getMimeType()),
-        //     ],
-        //     [
-        //         'file'      => 'required|in:csv',
-        //     ]
-        // );
- 
+
         if($validator->fails()){          
             return response()->json(['error'=>$validator->errors()], 401);                        
         }  

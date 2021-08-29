@@ -15,6 +15,7 @@ file {SELECT_FILE}
 
 Response : {"success":true,"message":"CSV File successfully uploaded : File ID 15","file":{}} 
 
+# Sample CSV data
 
 Sample CSV is also available on /Docs/SampleCsv folder
 
@@ -22,5 +23,8 @@ MODULE_DATA_ERROR.csv
 MODULE_DATA_HEADER_ERROR.csv
 MODULE_DATA_VALID.csv
 
-    
+# Queue Execution
 
+For testing purpose QUEUE_CONNECTION is in sync mode.
+
+We can change to QUEUE_CONNECTION=database to make the queue function in background.
