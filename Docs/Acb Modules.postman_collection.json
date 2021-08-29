@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "fa012901-41e6-46a1-8b37-f6e7d05dc77a",
+		"name": "Acb Modules",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/arjun/Desktop/testdata/MODULE_DATA.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/modules-file-up-api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"modules-file-up-api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

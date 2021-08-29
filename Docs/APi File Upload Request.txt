@@ -1,0 +1,7 @@
+URL : http://localhost:8000/api/modules-file-up-api
+
+POST Request as form-data
+
+file {SELECT_FILE}
+
+Response : {"success":true,"message":"CSV File successfully uploaded : File ID 15","file":{}} 
