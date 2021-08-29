@@ -1,17 +1,17 @@
 Module_code,Module_name,Module_term
-1,Iggy,Reinhard
+1#,Iggy,Reinhard
 2,Raimund,Fennell
 3,Cacilie,Gerg
 4,Dawna,Natalie
-5,Sandie,Dossettor
+5#,Sandie$,Dossettor
 6,Glen,Mcasparan
-7,Nicky,Aphale
-8,Marlane,Blackadder
-9,Barron,Pentin
-10,Lamont,Poltun
-11,Brinn,Josephoff
+7,Nicky$,Aphale
+8,Marlane,Blackadder%
+9,Barron,Pentin%
+10,Lamont,Poltun%
+11#,Brinn,Josephoff
 12,Gasper,Iliffe
-13,Mureil,Marking
+13,Mureil$,Marking
 14,Vachel,Ommundsen
 15,Roley,Lauthian
 16,Marjie,Stout
@@ -40,7 +40,7 @@ Module_code,Module_name,Module_term
 39,Aliza,Makey
 40,Raynell,Robic
 41,Filmore,Kroch
-42,Jo-ann,Durham
+42,Joann,Durham
 43,Patricio,Rylatt
 44,Verge,Sievewright
 45,Xaviera,Merrien
@@ -72,9 +72,9 @@ Module_code,Module_name,Module_term
 71,Brana,Russe
 72,Bili,Farey
 73,Rourke,Fricker
-74,Alexander,Zum Felde
+74,Alexander,ZumFelde
 75,Dannye,Jansik
-76,De witt,Clothier
+76,Dewitt,Clothier
 77,Ginnie,Brumbye
 78,Nannette,Sandey
 79,Minnie,Bricket
@@ -121,9 +121,9 @@ Module_code,Module_name,Module_term
 120,Kelci,McReidy
 121,Thorn,Ummfrey
 122,Claudina,Bonham
-123,Germain,O'Gormally
+123,Germain,Gormally
 124,Vale,Griffitts
-125,Meryl,O' Borne
+125,Meryl,Borne
 126,Ruthanne,Lindop
 127,Anthony,Audiss
 128,Johnathan,Tozer
@@ -176,7 +176,7 @@ Module_code,Module_name,Module_term
 175,Sollie,Trorey
 176,Witty,Basili
 177,Jarad,Duffin
-178,Cecilius,O'Flaherty
+178,Cecilius,Flaherty
 179,Luther,Verrier
 180,Karleen,Milstead
 181,Bathsheba,Cowgill
@@ -186,12 +186,12 @@ Module_code,Module_name,Module_term
 185,Verla,Mosedill
 186,Theodore,Sturgess
 187,Sigismondo,Bagehot
-188,Christoffer,le Keux
-189,Hunfredo,Di Gregorio
+188,Christoffer,leKeux
+189,Hunfredo,DiGregorio
 190,Gabriell,Pawlowicz
 191,Kennedy,Buard
 192,Linoel,Ubsdale
-193,Edwina,von Nassau
+193,Edwina,vonNassau
 194,Timothy,Hainge
 195,Crissie,Gartan
 196,Cully,Springham
@@ -207,11 +207,11 @@ Module_code,Module_name,Module_term
 206,Adriena,Cordet
 207,Adrien,Sherborn
 208,Roxanne,Spuner
-209,Marie-jeanne,Tunno
+209,Mariejeanne,Tunno
 210,Fidelia,Mayzes
 211,Justino,Kirman
 212,Dionysus,Dornan
-213,Leo,Di Iorio
+213,Leo,DiIorio
 214,Horatio,Toffanelli
 215,Titos,Milby
 216,Nicholle,Lusher
@@ -271,7 +271,7 @@ Module_code,Module_name,Module_term
 270,Silvan,Budnik
 271,Tonnie,Iacomini
 272,Berget,Mattys
-273,Sanford,de Villier
+273,Sanford,deVillier
 274,Sallyanne,Burril
 275,Bernie,Bitchener
 276,Wendall,Mennithorp
@@ -286,7 +286,7 @@ Module_code,Module_name,Module_term
 285,Carroll,Bertelmot
 286,Dene,Riguard
 287,Loni,Saltsberger
-288,Way,de Lloyd
+288,Way,deLloyd
 289,Elmira,Banbury
 290,Yanaton,Mannock
 291,Reid,Warwick
@@ -313,14 +313,14 @@ Module_code,Module_name,Module_term
 312,Barth,Kinglake
 313,Jeralee,Willoughby
 314,Carlee,Halladay
-315,Trevor,De Domenicis
+315,Trevor,DeDomenicis
 316,Tiertza,Skene
 317,Richie,Gerrard
 318,Debora,Mcall
 319,Andros,Duling
 320,Lorne,Laytham
 321,Abbe,Gwilliam
-322,Linus,O Mullen
+322,Linus,OMullen
 323,Abagail,Stable
 324,Colette,Pike
 325,Ursula,Petry
@@ -336,7 +336,7 @@ Module_code,Module_name,Module_term
 335,Nevil,Oneile
 336,Fernando,Tamburo
 337,Christoper,Wagg
-338,Kipp,Van Der Straaten
+338,Kipp,VanDerStraaten
 339,Courtenay,Vedyashkin
 340,Magnum,Novacek
 341,Sascha,Side
@@ -346,13 +346,13 @@ Module_code,Module_name,Module_term
 345,Carlie,Eaken
 346,Velma,Mardlin
 347,Mufi,Nesbit
-348,Julianne,Di Gregorio
+348,Julianne,DiGregorio
 349,Bondy,Steven
 350,Gwenette,Englefield
 351,Ardeen,Densumbe
 352,Lise,Lie
 353,Alberto,Gorries
-354,Morten,De Vaux
+354,Morten,DeVaux
 355,Roseanna,McLaughlan
 356,Chaddy,Ruddle
 357,Jillayne,Savil
@@ -405,7 +405,7 @@ Module_code,Module_name,Module_term
 404,Lucas,Vanyukov
 405,Rhetta,Sarath
 406,Eleni,Letson
-407,Weston,O'Dogherty
+407,Weston,Dogherty
 408,Kylie,Vasyutochkin
 409,Whitney,Barbrook
 410,Maxi,Rignoldes
@@ -422,7 +422,7 @@ Module_code,Module_name,Module_term
 421,Lu,Burnapp
 422,Sherwynd,Pala
 423,Gleda,Mogra
-424,Corri,D'Alwis
+424,Corri,DAlwis
 425,Godwin,Sully
 426,Axel,Gooda
 427,Abbi,Odde
@@ -452,7 +452,7 @@ Module_code,Module_name,Module_term
 451,Faith,Whitsey
 452,Karena,Hulk
 453,Patti,Fassmann
-454,Allyn,O'Curneen
+454,Allyn,Curneen
 455,Cayla,Spyvye
 456,Angelina,Desvignes
 457,Bev,Cogley
@@ -509,7 +509,7 @@ Module_code,Module_name,Module_term
 508,Martha,Cranney
 509,Moss,Durnin
 510,Sylvia,Borgesio
-511,Ronica,O'Hare
+511,Ronica,Hare
 512,Cassondra,Hutcheon
 513,Junina,Harrison
 514,Brnaby,Dutt
@@ -549,14 +549,14 @@ Module_code,Module_name,Module_term
 548,Noel,Ellingford
 549,Terry,Corthes
 550,Franciska,Ree
-551,Natividad,Borg-Bartolo
+551,Natividad,BorgBartolo
 552,Marcelle,Farnie
 553,Grant,Langton
 554,Anders,Marians
 555,Almira,Brummitt
 556,Joey,Mullin
 557,Man,Dowdell
-558,Gnni,O'Nion
+558,Gnni,Nion
 559,Tony,Sheber
 560,Peggie,Leeming
 561,Celinka,Henri
@@ -573,7 +573,7 @@ Module_code,Module_name,Module_term
 572,Bartel,Carous
 573,Duffy,Byrd
 574,Irvin,Drieu
-575,Jacquelynn,De Cruce
+575,Jacquelynn,DeCruce
 576,Van,Cornilleau
 577,Rochester,Cosslett
 578,Bart,McCrainor
@@ -599,7 +599,7 @@ Module_code,Module_name,Module_term
 598,Dom,Crosskell
 599,Artur,Roughley
 600,Binky,Hunn
-601,Kenyon,Mc Coughan
+601,Kenyon,McCoughan
 602,Leanor,Rembrandt
 603,Homere,MacKenzie
 604,Kenyon,Gingell
@@ -638,8 +638,8 @@ Module_code,Module_name,Module_term
 637,Elwyn,Fawltey
 638,Adina,Pedlow
 639,Natalya,MacMichael
-640,Connie,D'Alesco
-641,Daron,D'Alesco
+640,Connie,DAlesco
+641,Daron,DAlesco
 642,Lothario,Pickthorn
 643,Simone,Vigours
 644,Olympe,Oldrey
@@ -660,7 +660,7 @@ Module_code,Module_name,Module_term
 659,Kathleen,Rankling
 660,Claribel,Saggs
 661,Fanchette,Digg
-662,Holly-anne,Cornuau
+662,Hollyanne,Cornuau
 663,Marya,Huish
 664,Leila,Leeke
 665,Charity,Romme
@@ -707,7 +707,7 @@ Module_code,Module_name,Module_term
 706,Melvin,Mealing
 707,Arlie,Holyland
 708,Stacey,Barlas
-709,Tonnie,De Bruijn
+709,Tonnie,DeBruijn
 710,Trudy,Smitton
 711,Gilbert,Veschambes
 712,Tye,Oaten
@@ -730,7 +730,7 @@ Module_code,Module_name,Module_term
 729,Salvatore,Heinert
 730,Thelma,Koeppke
 731,Wilburt,Elesander
-732,Lorelei,Du Barry
+732,Lorelei,DuBarry
 733,Hort,Coniff
 734,Fields,Overthrow
 735,Tore,Brearton
@@ -764,7 +764,7 @@ Module_code,Module_name,Module_term
 763,Lesley,Gerrill
 764,Florella,McCleary
 765,Ingram,Sarjeant
-766,Henrik,O'Sharry
+766,Henrik,Sharry
 767,Norah,Padrick
 768,Nicolis,Gayden
 769,Theda,Elster
@@ -796,7 +796,7 @@ Module_code,Module_name,Module_term
 795,Betteanne,Baress
 796,Sherri,Huster
 797,Lani,Trollope
-798,Arda,O'Brallaghan
+798,Arda,Brallaghan
 799,Mahmoud,Queenborough
 800,El,Avrahamof
 801,Osmond,Lenham
@@ -807,16 +807,16 @@ Module_code,Module_name,Module_term
 806,Fredi,Libreros
 807,Augustina,Kobus
 808,Nanny,Weildish
-809,Michael,M'cowis
+809,Michael,Mcowis
 810,Crosby,Berthot
-811,Edd,Di Filippo
+811,Edd,DiFilippo
 812,Arnaldo,Freckelton
 813,Morissa,Ligoe
 814,Codee,Janeway
 815,Manda,Dimic
 816,Eilis,McAnulty
 817,Opalina,Vasile
-818,Alistair,M'Barron
+818,Alistair,MBarron
 819,Whitney,Braddock
 820,Deeann,Drummer
 821,Margot,Wapol
@@ -845,14 +845,14 @@ Module_code,Module_name,Module_term
 844,Andrea,York
 845,Anastasie,Harsnep
 846,Venita,Radleigh
-847,Enrique,O'Scully
+847,Enrique,Scully
 848,Millisent,Koopman
 849,Tatiana,Shaxby
 850,Ceciley,Balfour
 851,Benita,Dumbrall
 852,Levy,Merfin
 853,Fanni,Grishinov
-854,Ursala,De Malchar
+854,Ursala,DeMalchar
 855,Rich,Cattenach
 856,Tedman,Matt
 857,Chrisse,Brisseau
