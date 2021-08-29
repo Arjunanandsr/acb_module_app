@@ -50,6 +50,7 @@ class ProcessCsvQueue implements ShouldQueue
         
         try {
             $messages = array(
+                'numeric' => ':attribute must only contain numbers',
                 'required' => ':attribute is missing',
                 'alpha' => ':attribute must only contain letters',
                 'regex' => ':attribute contains special characters'

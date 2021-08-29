@@ -16,6 +16,7 @@ class CsvValidator
     private $headingKeys = [];
     private $headingRows;
     private $headingFailStat = 0;
+    private $headingDiff;
     private $messages;
     /**
      * Create a new rule instance.
@@ -40,15 +41,17 @@ class CsvValidator
             // $this->errors[] = 'Header count not matching.';
             return $this;
         }
-
-        if(array_diff(array_keys($rules), $this->headingRows) )
+        $headdiff = array_diff($this->headingRows,array_keys($rules));
+        if( $headdiff )
         {
             $this->headingFailStat = 2;
+            $this->headingDiff = $headdiff;
             // $this->errors[] = 'Headers not matching.';
             return $this;
         }
 
         $csvData = $this->getCsvAsArray($csvPath);
+
         if (empty($csvData)) {
             throw new \Exception('No data found.');
         }
@@ -74,17 +77,20 @@ class CsvValidator
 
     public function sanitize($line)
     {
-        $clean = iconv('UTF-8', 'ASCII//TRANSLIT', $line); // attempt to translate similar characters
-        $clean = preg_replace('/[^\w]/', '', $clean); // drop anything but ASCII
+         
+        $clean =trim($line); 
         return $clean;
     }
 
     public function getCsvAsArray($filePath, $keyField = null)
     {
-        $csvdata = file($filePath);
+        $csvdata = file($filePath,FILE_SKIP_EMPTY_LINES);
+        $csvdata = array_filter(array_map("trim", $csvdata), "strlen");
         $rows = array_map("utf8_encode", $csvdata);
         $rows = array_map('str_getcsv', $rows);
         $rowKeys = array_shift($rows);
+        // PHP 7.4 and later
+       
         $formattedData = [];
         foreach ($rows as $row) 
         {
@@ -108,17 +114,27 @@ class CsvValidator
         }
         elseif($this->headingFailStat==2)
         {
-            $errors[] = 'Header not matching.';
+            if(is_array($this->headingDiff)){
+                foreach($this->headingDiff as $column => $diff){
+                    $errors[] = sprintf('Header column (%s at %s column) is incorrect in csv file',$diff,$this->ordinal($column+1)); 
+                }
+            }
         }
         return $errors;
     }
-
+    public function ordinal($number) {
+        $ends = array('th','st','nd','rd','th','th','th','th','th','th');
+        if ((($number % 100) >= 11) && (($number%100) <= 13))
+            return $number. 'th';
+        else
+            return $number. $ends[$number % 10];
+    }
     public function checkFails()
     {
         $error_messages = array();
         $headingErrors = $this->headingErrors();
-
-        if($headingErrors)
+        
+        if(!empty($headingErrors))
         {
             foreach($headingErrors as $head)
             {                
@@ -160,9 +176,10 @@ class CsvValidator
     {
         $errors = [];
         foreach ($this->csvData as $rowIndex => $csvValues) {
+          
             $validator = Validator::make($csvValues, $this->rules, $this->messages);
-            if (!empty($this->headingRow)) {
-                $validator->setAttributeNames($this->headingRow);
+            if (!empty($this->headingRows)) {
+                $validator->setAttributeNames($this->headingRows);
             }
             if ($validator->fails()) {
                 $errors[$rowIndex] = $validator->messages()->toArray();

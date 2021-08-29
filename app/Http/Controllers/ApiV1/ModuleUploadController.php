@@ -64,8 +64,7 @@ class ModuleUploadController extends Controller implements ShouldQueue
             
             return response()->json([
                 "success" => true,
-                "message" => "CSV File successfully uploaded : File ID ".$save->id,
-                "file" => $file
+                "message" => "CSV File successfully uploaded : File ID ".$save->id
             ]);
   
         }
