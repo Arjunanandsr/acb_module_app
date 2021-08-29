@@ -1,7 +1,15 @@
 
 # Module CSV importer
 
-How to test 
+How to test :
+
+# Config
+
+Change Db and Mail settings
+
+# Migration 
+
+Run this : `php artisan migrate`
 
 Replace the "MODULE_MAIL_STATUS_MAIL" with youremail@domain.com on .env file.
 
@@ -28,3 +36,5 @@ MODULE_DATA_VALID.csv
 For testing purpose QUEUE_CONNECTION is in sync mode.
 
 We can change to QUEUE_CONNECTION=database to make the queue function in background.
+
+Run this : `php artisan queue:work`
